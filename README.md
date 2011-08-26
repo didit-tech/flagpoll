@@ -59,10 +59,11 @@ Here are the rules:
 
 ## Download
 
-Releases are available for download from [GitHub](http://github.com/didit-tech/flagpoll/downloads). Alternatively, you
-can install using Node Package Manager (npm):
+You can install using Node Package Manager (npm):
 
     npm install flagpoll
+    
+You can also clone or fork this project
 
 ## Documentation
 
