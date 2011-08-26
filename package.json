@@ -1,17 +1,25 @@
 {
-  "name": "Flagpoll",
-  "version": "0.0.1",
-  "author": "Didit <development@didit.com>",
-  "dependencies": {
-    "async": "0.1.9",
-    "underscore": "1.1.7",
-    "eyes": "0.1.6"
-  },
-  "devDependencies": {
-    "should": "0.2.0",
-    "sinon": "1.1.1"
-  },
-  "scripts": {
-  },
-  "engines": { "node": "0.4.x" }
+    "name": "flagpoll"
+  , "version": "0.0.1"
+  , "author": "Didit Tech <development@didit.com>"
+  , "description": "Polling made easy"
+  , "version": "0.0.1"
+  , "homepage": "https://github.com/didit-tech/flagpoll"
+  , "repository": { 
+      "type": "git", 
+      "url": "git://github.com/didit-tech/flagpoll.git" 
+    }
+  , "engines": { "node": "0.4.x" }
+  , "keywords": ["poll", "polling", "poller", "repeat", "repetitive"]
+  , "preferGlobal": false
+  , "dependencies": {
+      "async": "0.1.9",
+      "underscore": "1.1.7",
+      "eyes": "0.1.6"
+    }
+  , "devDependencies": {
+      "should": "0.2.0",
+      "sinon": "1.1.1"
+    }
+  , "engines": { "node": "0.4.x" }
 }
