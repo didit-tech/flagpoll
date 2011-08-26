@@ -38,6 +38,8 @@ poll indefinitely, this is not the library for you.
 
     flagpoll.start(pollFunction, interval, maxTries, callback);
 
+Or, written with everything inline:
+
     var flagpoll = require('flagpoll');
 
     flagpoll.start(
