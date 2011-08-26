@@ -38,6 +38,22 @@ poll indefinitely, this is not the library for you.
 
     flagpoll.start(pollFunction, interval, maxTries, callback);
 
+    var flagpoll = require('flagpoll');
+
+    flagpoll.start(
+      function(next) {
+        var rand = Math.floor(Math.random()*11);
+        (rand < 5) ? next('Success', {num: rand}) : next()
+      },
+      100,
+      10,
+      function(status, response) {
+        console.log(status);
+        console.log(response.tries);
+        console.log(response.result);
+      }
+    );
+
 Here are the rules:
 
 * The first parameter is your poll function. It takes one parameter called
@@ -62,7 +78,7 @@ Here are the rules:
 You can install using Node Package Manager (npm):
 
     npm install flagpoll
-    
+
 You can also clone or fork this project.
 
 ## Documentation
@@ -82,7 +98,7 @@ __Arguments__
 * callback - The function that receives the status and response parameters
   once polling is done, either because polling was successful, the maxTries
   limit was reached or because of an error condition.
-  
+
 ## Contributors
 
 * Tom Galazka ([galazka-tech](https://github.com/galazka-tech))
