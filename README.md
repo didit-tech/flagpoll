@@ -63,7 +63,7 @@ You can install using Node Package Manager (npm):
 
     npm install flagpoll
     
-You can also clone or fork this project
+You can also clone or fork this project.
 
 ## Documentation
 
