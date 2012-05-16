@@ -3,12 +3,7 @@
   , "version": "0.0.1"
   , "author": "Didit Tech <development@didit.com>"
   , "description": "Polling made easy"
-  , "version": "0.0.1"
   , "homepage": "https://github.com/didit-tech/flagpoll"
-  , "repository": { 
-      "type": "git", 
-      "url": "git://github.com/didit-tech/flagpoll.git" 
-    }
   , "keywords": ["poll", "polling", "poller", "repeat", "repetitive"]
   , "preferGlobal": false
   , "dependencies": {
