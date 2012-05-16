@@ -2,7 +2,7 @@ global.should = require('should');
 global.assert = require('assert');
 global.inspect = require('eyes').inspector({});
 global._ = require('underscore');
-require('helpers/core_ext');
+require('../lib/helpers/core_ext');
 
 var sinon = require('sinon');
 

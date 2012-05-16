@@ -1,6 +1,6 @@
-var testHelper = require('test_helper');
+var testHelper = require('../test_helper');
 var describe = testHelper.describe(exports);
-var flagpoll = require('flagpoll');
+var flagpoll = require('../../lib/flagpoll');
 
 var interval = 10;
 var maxRetries = 10;
