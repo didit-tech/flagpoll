@@ -4,7 +4,7 @@
   , "author": "Didit Tech <development@didit.com>"
   , "description": "Polling made easy"
   , "homepage": "https://github.com/didit-tech/flagpoll"
-  , "keywords": ["poll", "polling", "poller", "repeat", "repetitive"]
+  , "tags": ["poll", "polling", "poller", "repeat", "repetitive"]
   , "preferGlobal": false
   , "dependencies": {
       "async": "0.1.18",
@@ -15,5 +15,5 @@
       "should": "0.6.0",
       "sinon": "1.1.1"
     }
-  , "engines": { "node": "0.6.17" }
+  , "engines": { "node": ">= 0.2.4" }
 }
