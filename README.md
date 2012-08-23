@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/didit-tech/flagpoll.png)](http://travis-ci.org/didit-tech/flagpoll)
 # Flagpoll.js
 
 Flagpoll is a utility to make polling easy. There are times when you need to
