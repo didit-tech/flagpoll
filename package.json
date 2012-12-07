@@ -1,6 +1,6 @@
 {
     "name": "flagpoll"
-  , "version": "0.0.1"
+  , "version": "0.1.0"
   , "author": "Didit Tech <development@didit.com>"
   , "description": "Polling made easy"
   , "homepage": "https://github.com/didit-tech/flagpoll"
@@ -15,5 +15,5 @@
       "should": "0.6.0",
       "sinon": "1.1.1"
     }
-  , "engines": { "node": ">= 0.2.4" }
+  , "engines": { "node": ">= 0.6.x" }
 }
